@@ -1,7 +1,7 @@
 # BacklogCountTool:Serverless Framework version
 ## 概要
 backlogの、当月1ヶ月分のチケット総数、予定時間、実績時間を集計し、Slackへ通知するLambda Functionです。
-Serverless Frameworkが実行可能であることが前提となります。
+Serverless Frameworkが実行可能であること前提となります。
 
 
 ## リポジトリのclone
@@ -11,7 +11,7 @@ git clone https://github.com/y-fujisaki/BacklogCountToolServerless.git
 
 
 ## serverless-python-requirementsインストール
-* Pythonのリスト(requirements.txt)記載のパッケージをデプロイ時のパッケージに含めるプラグイン
+* PGで必要なPythonパッケージリスト(requirements.txt)をデプロイ時のパッケージに含めるプラグイン
 
 ```
 npm install --save serverless-python-requirements
